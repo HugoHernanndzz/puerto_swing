@@ -1,3 +1,4 @@
+//Hugo Hernandez
 package PaqG10_B;
 
 import javax.swing.*;
