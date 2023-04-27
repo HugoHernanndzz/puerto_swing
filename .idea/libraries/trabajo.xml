@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="trabajo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/trabajoHub-master/out/artifacts/trabajo_jar/trabajo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
