@@ -1,4 +1,4 @@
-//Hugo Hernández
+//Hugo Hernández Gualda
 package PaqG10_B;
 
 import javax.swing.*;
