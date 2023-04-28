@@ -1,4 +1,4 @@
-//Hugo Hernandez
+//Hugo Hernandez Gualda
 package PaqG10_B;
 
 public class Puerto {
@@ -22,7 +22,7 @@ public class Puerto {
                 if (this.almacen[i][j].getId() == -1){
                     s.append("0       ");
                 }
-                else s.append("X       ");
+                else s.append(this.almacen[i][j].getId()+"-"+this.almacen[i][j].getPeso()+"    ");
             }
             s.append("\n");
         }
@@ -82,5 +82,14 @@ public class Puerto {
             }
         }
         return suma;
+    }
+    String peso() {
+        int peso1 = 0;
+        for(int i=0;i<F;i++){
+            for(int j=0;j<C;j++){
+                peso1 = peso1 + this.almacen[i][j].getPeso();
+            }
+        }
+        return "El peso total es "+peso1;
     }
 }
